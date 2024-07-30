@@ -3,6 +3,7 @@ import React from 'react';
 import { Section, SectionText, SectionTitle } from '../../styles/GlobalComponents';
 import Button from '../../styles/GlobalComponents/Button';
 import { LeftSection } from './HeroStyles';
+import Link from 'next/link';
 
 const Hero = (props) => (
   <>
@@ -15,7 +16,9 @@ const Hero = (props) => (
         <SectionText>
         Hello, my name is Pablo, a full-stack web developer with knowledge in PostgreSQL, Express, React, Node and Git/GitHub.
         </SectionText>
-        <Button onClick={props.handleClick}>Learn More</Button>
+        <Link href="#projects">
+          <Button onClick={props.handleClick}>Learn More</Button>
+        </Link>
       </LeftSection>
     </Section>
   </>
