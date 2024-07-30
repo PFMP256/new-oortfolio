@@ -16,7 +16,7 @@ const Hero = (props) => (
         <SectionText>
         Hello, my name is Pablo, a full-stack web developer with knowledge in PostgreSQL, Express, React, Node and Git/GitHub.
         </SectionText>
-        <Link href="#projects">
+        <Link legacyBehavior href="#projects">
           <Button onClick={props.handleClick}>Learn More</Button>
         </Link>
       </LeftSection>
