@@ -14,7 +14,7 @@ const Hero = (props) => (
           My Personal Portfolio
         </SectionTitle>
         <SectionText>
-        Hello, my name is Pablo, a full-stack web developer with knowledge in PostgreSQL, Express, React, Node and Git/GitHub.
+          Hi, I'm Pablo — a Frontend Developer specializing in React and React Native. I build performant, scalable web and mobile applications with a focus on clean code and great user experiences.
         </SectionText>
         <Link legacyBehavior href="#projects">
           <Button onClick={props.handleClick}>Learn More</Button>
